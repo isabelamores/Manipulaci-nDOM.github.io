@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Para ocupar toda la altura de la ventana */
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+}
+
+#buttons {
+    margin-top: 20px;
+}
